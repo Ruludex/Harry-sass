@@ -1,0 +1,66 @@
+$color: rgba(138, 7, 7, 0.767);
+$color2:yellow;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: harry;
+    src: url(../asset/typography/HARRYP__.TTF);
+}
+
+body {
+    background-color: black;
+}
+
+nav  {
+    background-color: $color;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    .navbar-brand  {
+        font-family: harry;
+        color: $color2;
+        font-size: 100px;
+        }
+    .collapse {
+        font-size: 50px;
+        font-family: harry;
+        margin-top: 50px;
+        a:hover {
+            color: $color2;
+        }
+    }
+}
+main {
+    img {
+    border-radius: 200px;
+    padding: 100px;
+    }
+    article {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 30px;
+        text-align: center;
+        color: rgba(255, 136, 0, 0.664);
+        padding: 100px;
+    }
+    iframe {
+        width: 560px;
+        height: 430px;
+        margin: auto;
+        display: block;
+    }
+}
+footer {
+    background-color: $color;
+    img {
+        width: 70px;
+        padding: 10px;
+        border-radius: 50%;
+    }
+    audio {
+        width: 250px;
+        height: 20px;
+    }
+}

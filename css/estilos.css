@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: harry;
+  src: url(../asset/typography/HARRYP__.TTF);
+}
+body {
+  background-color: black;
+}
+
+nav {
+  background-color: rgba(138, 7, 7, 0.767);
+  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+nav .navbar-brand {
+  font-family: harry;
+  color: yellow;
+  font-size: 100px;
+}
+nav .collapse {
+  font-size: 50px;
+  font-family: harry;
+  margin-top: 50px;
+}
+nav .collapse a:hover {
+  color: yellow;
+}
+
+main img {
+  border-radius: 200px;
+  padding: 100px;
+}
+main article {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+  text-align: center;
+  color: rgba(255, 136, 0, 0.664);
+  padding: 100px;
+}
+main iframe {
+  width: 560px;
+  height: 430px;
+  margin: auto;
+  display: block;
+}
+
+footer {
+  background-color: rgba(138, 7, 7, 0.767);
+}
+footer img {
+  width: 70px;
+  padding: 10px;
+  border-radius: 50%;
+}
+footer audio {
+  width: 250px;
+  height: 20px;
+}
+
+/*# sourceMappingURL=estilos.css.map */
